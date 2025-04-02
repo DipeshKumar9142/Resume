@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:chocolate;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.web{
+margin-top: 14px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+.ancor{
+    display: flex;
+    margin-top: 13px;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+.intro{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    color:orange;
+}
+#aweb{
+    color:orange;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 23%;
+    margin-left: 1050px;
+    margin-top: -70px;
+}
+.paragraph{
+    margin-left: 1050px;
+}
+.lorem{
+    width: 350px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.button{
+    margin-left:260px ;
+    margin-top: 50px;
+}
+#button1{
+    background-color: rgb(102, 102, 240);
+    width: 100px;
+    height: 26px;
+    color: white;
+    border-radius: 7%;
+}
+#button2{
+    background-color: rgb(102, 102, 240);
+    width: 110px;
+    height: 26px;
+    color: white;
+    border-radius: 7%;
+}
+   /* HOME */
+
+ .intro1{
+    background-color:chocolate;
+     font-size: 20px;
+    height: 60px;
+    width: 100%px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro2{
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.5); 
+    border-right: 2px solid black; 
+   border-bottom: 2px solid black;
+   width: 990px;
+   height: 320px;
+   margin-left: 170px;
+   margin-top: 10px;
+}
+.intro_img{
+    background-image: url("barnwal.jpg");
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 800px;
+    border-radius: 5%;
+}
+.text{
+    margin-left: 800px;
+}
+
+.heading{
+    margin-top: -270px;
+}
+h3{
+    padding: 5px;
+}
+
+ /* SKILL & EXPERTIES  */
+
+ .card1{
+     box-shadow: 4px 3px 5px rgba(1,1,1,0.5);
+    width: 200px;
+    border-right:2px solid rgb(39, 10, 10) ;
+    border-bottom: 2px solid black;
+     margin-top: 20px; 
+     margin-left: 100px;
+ }
+ #soft{
+    text-align: center;
+    text-decoration: underline;
+ }
+ li{
+    padding: 1rem;
+ }
+ .card2{
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.5);
+    width: 200px;
+    border-right:2px solid rgb(39, 10, 10) ;
+    border-bottom: 2px solid black;
+    margin-left: 53rem;
+    margin-top: -44%;
+ }
+.arun{
+    padding-top: 0.9rem;
+}
+
+/* educational */
+ table{
+    width: 780px;
+    height: 200px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 260px;
+} 
+ th{
+    background-color: rgb(184, 126, 18);
+}
+.tr1{
+    background-color: rgb(180, 179, 179);
+}
+ /* Contact */
+.cont{
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+footer{
+    background-color: chocolate;
+    color:white;
+    height: 100px;
+    width:100%;
+    text-align: center;
+    margin-top: 0.5rem;   
+}
+h4{
+    margin-top: 10px;
+}
